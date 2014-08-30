@@ -4,6 +4,7 @@
   "description": "JS resolver/server for the .public TLD",
   "dependencies": {
     "hashname": "~0.0.1",
+    "native-dns": "~0.6.1",
     "e3x": "~0.0.1"
   },
   "devDependencies": {
