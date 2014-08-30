@@ -1,0 +1,36 @@
+{
+  "name": "dotPublic",
+  "version": "0.0.1",
+  "description": "JS resolver/server for the .public TLD",
+  "dependencies": {
+    "hashname": "~0.0.1",
+    "e3x": "~0.0.1"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+      "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quartzjer/dotPublic.git"
+  },
+  "keywords": [
+    "hashname",
+    "dht",
+    "dns",
+    "pki"
+  ],
+  "author": {
+    "name": "Jeremie Miller",
+    "email": "jeremie@jabber.org",
+    "url": "http://jeremie.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quartzjer/dotPublic/issues"
+  },
+  "homepage": "https://github.com/quartzjer/dotPublic"
+}
