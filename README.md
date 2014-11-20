@@ -1,8 +1,8 @@
-# dotPublic (`.public`) - Distributed Public TLD
+# dotPublic (`.public`) - 100% Distributed Public TLD
 
-> This is a work in progress and being forked from the DHT developed as part of [telehash](http://telehash.org/)
+> This is a work in progress, continuing from the DHT developed as part of the previous version of [telehash](http://telehash.org/)
 
-* based on the telehash kademlia DHT
+* Kademlia DHT
 * For *PUBLIC* only hashname-to-ip DNS resolution
 * All hashnames and resolved IPs are public and observable by anyone
 * Uses DHT to contact given hashname
@@ -24,7 +24,7 @@
 
 ## Protocol
 
-* builds on [hashnames](), [packets](), and [e3x messages]()
+* builds on [hashnames](https://github.com/telehash/telehash.org/tree/master/v3/hashname), [packets](https://github.com/telehash/telehash.org/tree/master/v3/lob), and [e3x messages](https://github.com/telehash/telehash.org/blob/master/v3/e3x/messages.md)
 * acts as a DNS bridge resolver->server
 * servers maintain the DHT
 
@@ -36,5 +36,5 @@
 6. server sends multiple DNS TXT responses of encoded messages to the resolver with `{"a":"4w0fc","ip":"1.2.3.4",port:53}` with any closer hashname prefixes and each response hashname's endpoint CSID+KEY as the `BODY`
 7. (recurse until hashname is found)
 8. when the server responding to a query is the closest, it should send its full hashname in the answer and one for each of the CSIDs it supports
-9. to validate the hashname, send it a handshake message and expect one in return
-10. forward the original and subsequent DNS question/answers over unreliable channels of type "dns"
+9. to validate the hashname, send it a handshake and expect one in return
+10. forward the original and subsequent DNS question/answers over unreliable channels of type `dns`
