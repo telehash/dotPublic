@@ -1,6 +1,6 @@
-# dotPublic (`.public`) - 100% Distributed Public TLD
+# dotPublic (`.public`) - Distributed TLD
 
-> This is a work in progress, continuing from the DHT developed as part of the previous version of [telehash](http://telehash.org/)
+> This is a work in progress, continuing from the DHT developed in earlier versions of [telehash](http://telehash.org/)
 
 * Kademlia DHT
 * For *PUBLIC* only hashname-to-ip DNS resolution
