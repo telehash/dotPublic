@@ -1,5 +1,11 @@
 # dotPublic (`.public`) - Distributed TLD
 
+## NOTICE
+
+This project was merged into [blockname](https://github.com/telehash/blockname) as its DHT.
+
+-------------------------
+
 > This is a work in progress, continuing from the DHT developed in [earlier versions](https://github.com/telehash/telehash.org/blob/master/v2/dht.md) of [telehash](http://telehash.org/)
 
 * Kademlia DHT
